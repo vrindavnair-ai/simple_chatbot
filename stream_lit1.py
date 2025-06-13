@@ -2,7 +2,7 @@ import streamlit as st
 import google.generativeai as genai
 
 # Set up Gemini API
-genai.configure(api_key="AIzaSyDTuP9mQuLaEUE7Y3A76ig-k4Ta-wTStWg")  # Replace with your key
+genai.configure(api_key="XXX-k4Ta-wTStWg")  # Replace with your key
 
 # Create the model and chat session
 model = genai.GenerativeModel("gemini-1.5-flash")
